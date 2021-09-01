@@ -50,9 +50,6 @@ const deleteNote = (id) =>
       'Content-Type': 'application/json',
     },
   })
-  .then(res => {
-    console.log(res);
-  })
 
 const renderActiveNote = () => {
   hide(saveNoteBtn);

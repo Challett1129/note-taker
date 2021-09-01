@@ -1,9 +1,19 @@
 {
   "notes": [
     {
-      "title": "This Title",
-      "text": "this is  a text for this note\n",
-      "id": "c401a599-ca4b-48fd-89ab-8cd705f49c6c"
+      "title": "Note",
+      "text": "note text\n",
+      "id": "4bee59fe-6955-44c4-86f5-67879835a868"
+    },
+    {
+      "title": "note taker",
+      "text": "note taker note note",
+      "id": "a35fac6b-685a-446a-bfb1-ea8b2acf4453"
+    },
+    {
+      "title": "This.titlel lol it worked!",
+      "text": "text is text",
+      "id": "7798b75f-c598-4f06-83a4-7b591f5b641f"
     }
   ]
 }
