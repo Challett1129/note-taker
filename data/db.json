@@ -1,19 +1,9 @@
 {
   "notes": [
     {
-      "title": "test",
-      "text": "test text",
-      "id": "5c4fc33e-c507-492f-854a-4a0b9e4d1619"
-    },
-    {
-      "title": "this is a name",
-      "text": "this is the text",
-      "id": "8da4a652-94fa-4014-9d8d-d0e1aefadc8f"
-    },
-    {
-      "title": "fds",
-      "text": "fd",
-      "id": "ca7abacf-55fb-4fba-a04e-57be127ab5d8"
+      "title": "This Title",
+      "text": "this is  a text for this note\n",
+      "id": "c401a599-ca4b-48fd-89ab-8cd705f49c6c"
     }
   ]
 }

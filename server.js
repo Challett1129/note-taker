@@ -33,6 +33,10 @@ app.get('/api/notes/:id', (req, res) => {
     }
 });
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
+})
+
 app.post('/api/notes', (req, res) => {
     req.body.id = uuidv4();
 
@@ -46,9 +50,12 @@ app.post('/api/notes', (req, res) => {
     }
 });
 
-// app.delete('/api/notes', (req, res){
-//     res.send('DELETE Request Called')
-// })
+app.delete('/api/notes/:id', (req, res) => {
+    const itemIndex  = notes.findIndex(({ id }) => id === req.params.id);
+    if (itemIndex >= 0) {
+      return notes.splice(itemIndex, 1);
+    }
+})
 
 
 app.listen(PORT, () => {
